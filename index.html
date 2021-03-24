@@ -205,19 +205,22 @@
                     <form name="contact" netlify  class="contact__form">
                         <div class="contact__inputs"
   <p>
-    <label>Name <input type="text" name="*name" /></label>
+    <label>Name <input type="text" name="name*" class="contact__input"></label>
   </p>
   <p>
-    <label>Email <input type="*email" name="email" /></label>
+    <label>Email <input type="email" name="email*" class="contact__input"></label>
   </p>
    <p>
-    <label>telefono: <input type="*telefono"></textarea></label>
+    <label>telefono: <input type="telefono" name="telefono*" class="contact__input"></label>
   </p>
   <p>
     <label>Message: <textarea name="message"></textarea></label>
   </p>
+                    <p>
+                    <textarea name="" id="" cols="0" rows="2" class="contact__input"></textarea>
+                    </p>
   <p>
-    <button type="submit">Send</button>
+    <button type="submit" value="Enviar" class="contact__button">
   </p>
 </form>
                             <input type="text" placeholder="Name*" class="contact__input">
